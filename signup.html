@@ -2,32 +2,58 @@
 <html>
     <head>
         <title>STACK OVERFLOW SIGNUP</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+
     </head>
     <body>
        <header>
-           <h1>Sign up Here</h1>
-           <link rel="stylesheet" href="style.css">
+           <!-- <h1>Sign up Here</h1> -->
+           <!-- <link rel="stylesheet" href="style.css"> -->
 
        </header>
-       <form action="#" method="POST">
-           <input type="text" name="FIRST NAME" placeholder="FIRST NAME">
-           <input type="text" name="LATST NAME" placeholder="LAST NAME">
-           <div>
-               <br>
-               <input type="email" name="email" placeholder="Email">
-           </div>
-           <div>
-               <br>
-                <input type="text" name="password" placeholder="Password" >
-                <br>
-                <br>
-                <input type="text" name="password" placeholder="ConfirmPassword">
-           </div>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid col-lg-2 mx-auto">
+              <a class="navbar-brand" href="#" style="font-size: 30px!important;">SIGN UP HERE</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-       </form>
-       <P>
-            <input type="checkbox"> I accept <a href="http://www.obililzerubabel">Terms and Conditions</a>           
-       </P>  
-       <button>Sign Up</button>       
+            </div>
+          </nav>
+          <form>
+            <div class="col-lg-6 mx-auto border mt-4"> 
+                    <div class="form-group row m-4">
+                        <div class="col-lg-6">
+                            <label>Username</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="First Name">
+                        </div>
+                        <div class="col-lg-6">
+                            <label>Last Name</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="form-group row col-lg-11 ml-4 m-4" >
+                      <label>Email</label>
+                      <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                    </div>
+                    <div class="form-group row col-lg-11 ml-4 m-4" >
+                        <label>Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-group row col-lg-11 ml-4 m-4" >
+                        <label>Confirm Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
+                      </div>
+                    <div class="form-group row col-lg-11 m-4" >
+                     <button type="submit" class="btn btn-primary">SIGNUP</button>
+                    </div>
+                    <div class="form-group row col-lg-11 m-4" >
+                        <p>
+                            <input type="checkbox"> I accept <a href="http://www.obililzerubabel">Terms and Conditions</a> 
+                        </p>
+                    </div>
+            </div>
+
+          </form>      
     </body>
 </html>

@@ -2,28 +2,46 @@
 <html>
     <head>
         <title>STACK OVER FLOW</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="bootstrap.min.css">
+        
     </head>
     <body>
-        <h1>STACK OVERFLOW</h1>
-        <form action="#" method="POST">
-            <label>USER NAME</label>
-            <input type="text" name="userName">
-            <br>
-            <br>
-            <label>PASSWORD</label>
-            <input type="text" name="passward">
-        </form>
-        <div>
-            <br>
-            <button>LOGIN</button>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid col-lg-2 mx-auto">
+              <a class="navbar-brand" href="#">STACK OVERFLOW</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
-        </div>
-        <p>
-            No account <a href="signup.html"><button>click here</button></a> to sign up
-        </p>
-        <p>
-            Forgot passward <button>click</button>
-        </p>
+            </div>
+          </nav>
+        <!-- <h1>STACK OVERFLOW</h1> -->
+        <form>
+            <div class="col-lg-6 mx-auto border mt-4"> 
+                    <div class="form-group row col-lg-11 m-4">
+                      <label>Username</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Username">
+                    </div>
+                    <div class="form-group row col-lg-11 ml-4 m-4" >
+                      <label>Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group row col-lg-11 m-4" >
+                     <button type="submit" class="btn btn-primary">LOGIN</button>
+                    </div>
+                    <div class="form-group row col-lg-11 m-4" >
+                        <p>
+                            No account <a href="signup.html">click here</a> to sign up
+                        </p>
+                        <p>
+                            Forgot passward
+                        </p>
+                    </div>
+            </div>
+
+          </form>
+          
+        
     </body>
 </html>
