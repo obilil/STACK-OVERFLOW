@@ -1,0 +1,13 @@
+h1{
+    color: darkorange;
+    text-align: center;
+    background-color: dimgrey;
+    border-radius: 20px;
+}
+
+body{
+    background-color: palegreen;
+}
+p{
+    color: darkred;
+}
